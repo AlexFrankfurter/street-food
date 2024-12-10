@@ -1,0 +1,138 @@
+*{
+    margin: 0;;
+    padding: 0;
+    font-family:sans-serif ;
+    box-sizing:border-box ; }
+body{
+        background-image: url(hatter.jpeg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+}
+h1{
+    text-align: center;
+    color: green;
+    padding: 20px; 
+}
+
+nav{
+    background-color:rgb(255, 255, 255);
+    display: grid;
+    place-items: center;
+}
+nav ul{
+   list-style-type: none; 
+}
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s ease-in;
+    font-size:18px 
+}
+nav ul a:hover{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    border-radius: 25px;
+}
+.items{
+    border-radius: 25px;
+    padding-top: 30px;
+    color: #000;
+    
+    list-style-type: none;
+    text-align: center;
+ 
+
+}
+.items img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+    border-radius: 25px;
+
+
+}
+.item button{
+    transform: scale(1.04);
+
+}
+.item h4{
+    padding: 5px;
+    text-align: center;
+
+}
+.item button{
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+}
+
+.item button:hover{
+    transform: scale(1.08);
+}
+.kor{ 
+    width: 90px;
+    font-size: large;
+    height: 30px;
+    border-color:black;
+    border-radius: 25px;
+   color:rgb(0, 0, 0);
+   background-color:lightgreen;
+   
+
+}
+.meret{
+    font-size: xx-large;
+    padding-top:  15px; ;
+    padding-bottom: 15px;
+    color: white;
+}
+.banner{
+    font-family:initial;
+    color:rgb(255, 255, 255);
+    background-image:url(hatter2.jpg);
+    col
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+               0 30px 20px rgba(0,0,0,.1);
+}
+
+.szin{
+   background-color:gray;
+}
+.kok{
+    width: 100px;
+    height: 100px;
+    
+}
+div
+{
+    size: 100%;
+}
+
+
+
